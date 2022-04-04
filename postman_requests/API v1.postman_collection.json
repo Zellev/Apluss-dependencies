@@ -1,0 +1,3580 @@
+{
+	"info": {
+		"_postman_id": "5a2458f9-6f64-4c1d-9535-b3bf880f5736",
+		"name": "Skripsi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admin ~auth admin",
+			"item": [
+				{
+					"name": "tampilkan Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cetak Status App pdf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/status/pdf",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"status",
+								"pdf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cetak Status App xlsx",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/status/xlsx",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"status",
+								"xlsx"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI1NTY0NjYsImV4cCI6MTYzMzE2MTI2Nn0.upUPFnIBmqUMzrP2Uku74EUxfjQyB4voIwjcAkZ5td0",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"zellev\",\r\n    \"email\": \"zellev@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/add-admin",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"add-admin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan my-Profil",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/my-profil",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"my-profil"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah my-Profil",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"azhar99\",\r\n    \"email\": \"azr123@gmail.com\",\r\n    \"status_civitas\": \"aktif\",\r\n    \"keterangan\": \"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/my-profil",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"my-profil"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan User All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/users?page=1&limit=15",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "15"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/users/search?find=User 69&page=1&limit=25",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"users",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "User 69"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Profil User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/users/:id_user",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"users",
+								":id_user"
+							],
+							"variable": [
+								{
+									"key": "id_user",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    \"username\": \"Badder 7\", \r\n    \"email\": \"bader@mac.com\", \r\n    \"status_civitas\": \"aktif\", \r\n    \"keterangan\": \"badder was here\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/users/:id_user",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"users",
+								":id_user"
+							],
+							"variable": [
+								{
+									"key": "id_user",
+									"value": "16"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah User bulk",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileupdate",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/users/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"users",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus User",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/users/:id_user",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"users",
+								":id_user"
+							],
+							"variable": [
+								{
+									"key": "id_user",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Dosen",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('role1')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzY2ODEsImV4cCI6MTYzMzI0MTQ4MX0.LDvCOeiPZafFBJUyomPGTQFI6FvDE6ts2r7HizFQ-EU",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\": \"{{role1}}\",\r\n    \"NIDN\": \"3333333333\",\r\n    \"NIDK\": \"3333333333\",\r\n    \"email\": \"Rosalin@gmail.com\",\r\n    \"nama_lengkap\": \"Rosalin\",\r\n    \"nomor_telp\": \"081234567790\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Dosen bulk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileadder",
+									"type": "file",
+									"src": "/D:/.WEB TEST/appujianessay/xlsxtemplate/Tambah/Adder.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/dosen/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Dosen all",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set('role1', 'Dosen')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/dosen?page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari Dosen",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/dosen/search?find=36&page=1&limit=25",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "36"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Dosen",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"NIP\": \"1910012345678901\",\r\n   \"NIDN\": \"1111111111\",\r\n   \"NIDK\": \"1111111111\",\r\n   \"nama_lengkap\": \"Hayley Bale\",\r\n   \"alamat\": \"Jalan margonda raya\",\r\n   \"nomor_telp\": \"081234567891\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/dosen/:kode_dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen",
+								":kode_dosen"
+							],
+							"variable": [
+								{
+									"key": "kode_dosen",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Dosen bulk",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileupdate",
+									"type": "file",
+									"src": "/D:/.WEB TEST/appujianessay/xlsxtemplate/Ubah/Updater.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/dosen/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Dosen",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/dosen/:kode_dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"dosen",
+								":kode_dosen"
+							],
+							"variable": [
+								{
+									"key": "kode_dosen",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Mahasiswa",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('role2')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\": \"{{role2}}\",\r\n    \"NIM\": \"2017190000\",\r\n    \"email\": \"Sani@gmail.com\",\r\n    \"nama_lengkap\": \"Sani simonangkir\",\r\n    \"nomor_telp\": \"0814457790891\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Mahasiswa bulk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileadder",
+									"type": "file",
+									"src": "/D:/.WEB TEST/appujianessay/xlsxtemplate/Tambah/Adder.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa",
+								"bulk"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Mahasiswa all",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set('role2', 'Mahasiswa')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa?page=1&limit=25",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari Mahasiswa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa/search?find=Arl&page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "Arl"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Mahasiswa",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"NIM\":\"1912627000\",\r\n   \"nama_lengkap\": \"Hayley Bale\",\r\n   \"alamat\": \"Jalan margonda raya\",\r\n   \"nomor_telp\": \"081234567891\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa/:kode_mhs",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa",
+								":kode_mhs"
+							],
+							"variable": [
+								{
+									"key": "kode_mhs",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Mahasiswa bulk",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileupdate",
+									"type": "file",
+									"src": "/C:/Users/USER/Pictures/4a637ae27fb9559049c4856c16543080.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Mahasiswa",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/mahasiswa/:kode_mhs",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"mahasiswa",
+								":kode_mhs"
+							],
+							"variable": [
+								{
+									"key": "kode_mhs",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Matakuliah",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_matkul\": \"10000002\",\r\n    \"kelompok_matkul\": \"Pilihan\",\r\n    \"peminatan\": \"\",\r\n    \"nama_matkul\": \"Pemrograman Web\",\r\n    \"semester\": \"117\",\r\n    \"sks\": \"2\",\r\n    \"deskripsi\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Matakuliah bulk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileadder",
+									"type": "file",
+									"src": "/D:/.WEB TEST/appujianessay/xlsxtemplate/Matakuliah.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah",
+								"bulk"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Matakuliah all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah?page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari Matakuliah",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah/search?find=118&page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "118"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Profil Matakuliah",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah/:kode_matkul",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah",
+								":kode_matkul"
+							],
+							"variable": [
+								{
+									"key": "kode_matkul",
+									"value": "50050009"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Matakuliah",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_mk\": \"50050003\",\r\n    \"kelompok_matkul\": \"Wajib\",\r\n    \"peminatan\": \"\",\r\n    \"nama_matkul\": \"Bahasa Indonesia\",\r\n    \"semester\": \"119\",\r\n    \"sks\": \"2\",\r\n    \"deskripsi\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah/:kode_matkul",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah",
+								":kode_matkul"
+							],
+							"variable": [
+								{
+									"key": "kode_matkul",
+									"value": "50050003"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Matakuliah bulk",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileupdate",
+									"type": "file",
+									"src": "/D:/.WEB TEST/appujianessay/xlsxtemplate/Ubah/Updater.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Matakuliah",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/matakuliah/:kode_matkul",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"matakuliah",
+								":kode_matkul"
+							],
+							"variable": [
+								{
+									"key": "kode_matkul",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Kelas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_seksi\": \"1912600027\",\r\n    \"nama_matkul\": \"Pendidikan Agama Islam\",\r\n    \"noreg_dosen1\": \"1111111129\",\r\n    \"noreg_dosen2\": \"\",\r\n    \"noreg_dosen3\": \"\",\r\n    \"hari\": \"jumat\",\r\n    \"jam\": \"09:00 - 11:00\",\r\n    \"deskripsi\": \"telat input\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/kelas",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Kelas bulk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileadder",
+									"type": "file",
+									"src": "/D:/.WEB TEST/appujianessay/xlsxtemplate/Kelas.xlsx"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								"bulk"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Dosen-pengampu",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pengampu\": {\r\n            \"noreg_dosen1\":\"1111111125\",\r\n            \"noreg_dosen2\":\"\",\r\n            \"noreg_dosen3\":\"\"\r\n        }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/:kode_seksi/dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								":kode_seksi",
+								"dosen"
+							],
+							"query": [
+								{
+									"key": "test",
+									"value": "1912600003",
+									"disabled": true
+								},
+								{
+									"key": "dosen",
+									"value": "1",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": "1912600005"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah  Dosen-pengampu",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pengampu\": {\r\n            \"noreg_dosen1\":\"1111111115\",\r\n            \"noreg_dosen2\":\"1111111123\",\r\n            \"noreg_dosen3\":\"\"\r\n        }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/:kode_seksi/dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								":kode_seksi",
+								"dosen"
+							],
+							"query": [
+								{
+									"key": "test",
+									"value": "1912600003",
+									"disabled": true
+								},
+								{
+									"key": "dosen",
+									"value": "1",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": "1912600000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus  Dosen-pengampu",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/:kode_seksi/dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								":kode_seksi",
+								"dosen"
+							],
+							"query": [
+								{
+									"key": "test",
+									"value": "1912600003",
+									"disabled": true
+								},
+								{
+									"key": "dosen",
+									"value": "1",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": "1912600000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Kelas",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_seksi\": \"1912600000\",\r\n    \"nama_matkul\": \"pancasila\",\r\n    \"hari\": \"rabu\",\r\n    \"jam\": \"08:00 - 10:00\",\r\n    \"deskripsi\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/:kode_seksi",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								":kode_seksi"
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": "1912600000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Kelas bulk",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileupdate",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/bulk",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								"bulk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Kelas",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/kelas/:kode_seksi",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"kelas",
+								":kode_seksi"
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Lupa pw",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/lupa-pw?page=1&limit=5",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"lupa-pw"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reset pw",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/lupa-pw/:kode_reset",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"lupa-pw",
+								":kode_reset"
+							],
+							"variable": [
+								{
+									"key": "kode_reset",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Lupa pw",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/lupa-pw/:kode_reset",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"lupa-pw",
+								":kode_reset"
+							],
+							"variable": [
+								{
+									"key": "kode_reset",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Pengumuman",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pengumuman\": \"ini adalah test, testing 123, testing...\",\r\n    \"status\": \"aktif\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/pengumuman",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"pengumuman"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Pengumuman all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/pengumuman?page=1&limit=5",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"pengumuman"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Pengumuman",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/admin/pengumuman/:kode_pengumuman",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"pengumuman",
+								":kode_pengumuman"
+							],
+							"variable": [
+								{
+									"key": "kode_pengumuman",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Pengumuman",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pengumuman\": \"ini adalah test, testing 123, testing..., sudah dirubah ternyata\",\r\n    \"status\": \"tidak_aktif\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/pengumuman/:kode_pengumuman",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"pengumuman",
+								":kode_pengumuman"
+							],
+							"variable": [
+								{
+									"key": "kode_pengumuman",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Pengumuman",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/pengumuman/:kode_pengumuman",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"pengumuman",
+								":kode_pengumuman"
+							],
+							"variable": [
+								{
+									"key": "kode_pengumuman",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Captcha",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"pertanyaan\": \"Berapakah 5+6?\",\r\n    \"jawaban\": \"11\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/captcha",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"captcha"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Captcha",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/captcha/:kode_captcha",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"captcha",
+								":kode_captcha"
+							],
+							"variable": [
+								{
+									"key": "kode_captcha",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Semester",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"semester\": \"124\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/semester",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"semester"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Semester",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"semester\": \"124\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/admin/semester/:kode_semester",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"semester",
+								":kode_semester"
+							],
+							"variable": [
+								{
+									"key": "kode_semester",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Semester",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NiwidXNlcm5hbWUiOiJ6ZWxsZXYzIiwiZW1haWwiOiJ6ZWxsZXYzQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFNxTFN4RURwLmJUbFAuNi5wR0NGRnVRcU5pV3B4Vnh0aENrdms3N3hDR0FnVy92OUF1OHVDIiwic3RhdHVzX2Npdml0YXMiOiJha3RpZiIsImtvZGVfcm9sZSI6MSwiZm90b19wcm9maWwiOm51bGwsImtldGVyYW5nYW4iOm51bGwsImNyZWF0ZWRfYXQiOiIyMDIxLTA5LTI0VDEwOjQ0OjQ1LjAwMFoiLCJ1cGRhdGVkX2F0IjpudWxsLCJpYXQiOjE2MzI2MzU5OTcsImV4cCI6MTYzMzI0MDc5N30.5ty0bD8yNnsCWUQEm1OGCuVrff3Lg7RgFVqNKYdps48",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/admin/semester/:kode_semester",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"admin",
+								"semester",
+								":kode_semester"
+							],
+							"variable": [
+								{
+									"key": "kode_semester",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "user: zellev2, pass: default",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJ6ZWxsZXYiLCJlbWFpbCI6InplbGxldi5hZG1pbi51amlhbnVuakBnbWFpbC5jb20iLCJpYXQiOjE2Mzc4NjAwOTUsImV4cCI6MTYzNzg2MDY5NX0.tztohwvTz130x3Rg1VqVZrXf0yo_RxqpgQxYFMRxcCU",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Dosen ~auth dosen",
+			"item": [
+				{
+					"name": "tampilkan Dashboard",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_seksi')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_seksi\": \"{{kode_seksi}}\",\r\n    \"judul_ujian\": \"Penilaian Tengah Semester Pancasila\",\r\n    \"jenis_ujian\": \"Penilaian Tengah Semester\", \r\n    \"tanggal_mulai\": \"10-09-2022\", \r\n    \"waktu_mulai\": \"14:12:00\",\r\n    \"durasi_ujian\": \"01:00:00\",\r\n    \"durasi_per_soal\": \"00:03:00\",\r\n    \"bobot_per_soal\": \"sembunyikan\",\r\n    \"bobot_total\": \"100\",\r\n    \"deskripsi\": \"test1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan PaketSoal All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal?page=1&limit=25",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari PaketSoal",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/search?find=12/12/2022&page=1&limit=25",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "12/12/2022"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"judul_ujian\": \"Penilaian Harian Agama Islam\",\r\n    \"jenis_ujian\": \"Penilaian Harian\", \r\n    \"tanggal_mulai\": \"12-12-2022\", \r\n    \"waktu_mulai\": \"14:12:00\",\r\n    \"durasi_ujian\": \"01:20:00\",\r\n    \"durasi_per_soal\": \"00:05:00\",\r\n    \"bobot_per_soal\": \"sembunyikan\",\r\n    \"bobot_total\": \"100\",\r\n    \"deskripsi\": \"test123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah status PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket/status",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket",
+								"status"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah keaktifan PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket/keaktifan",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket",
+								"keaktifan"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah relasi PaketSoal melalui Kelas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_paket\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/kelas/:kode_seksi/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"kelas",
+								":kode_seksi",
+								"paket-soal"
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah relasi PaketSoal melalui Kelas",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_paket\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/kelas/:kode_seksi/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"kelas",
+								":kode_seksi",
+								"paket-soal"
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus relasi PaketSoal melalui Kelas",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_paket\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/kelas/:kode_seksi/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"kelas",
+								":kode_seksi",
+								"paket-soal"
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah relasi Kelas ke PaketSoal",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_seksi\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket/kelas",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket",
+								"kelas"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah relasi Kelas ke PaketSoal",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_seksi\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket/kelas",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket",
+								"kelas"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus relasi Kelas ke PaketSoal",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_seksi\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_paket/kelas",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_paket",
+								"kelas"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Soal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_seksi')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "gambar_soal_1",
+									"contentType": "",
+									"type": "file",
+									"src": "/C:/Users/azhar/OneDrive/Pictures/test.png"
+								},
+								{
+									"key": "gambar_soal_2",
+									"contentType": "",
+									"type": "file",
+									"src": "/C:/Users/azhar/OneDrive/Pictures/apluss.png"
+								},
+								{
+									"key": "gambar_soal_3",
+									"contentType": "",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "kode_matkul",
+									"value": "50050002",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "soal",
+									"value": "lorem ipsum test 2",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "bobot_soal",
+									"value": "10",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "terbit",
+									"contentType": "application/json",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Soal dan Relasikan PkSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_seksi')\r",
+									"pm.collectionVariables.get('no_urut')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "gambar_soal_1",
+									"contentType": "",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "gambar_soal_2",
+									"contentType": "",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "gambar_soal_3",
+									"contentType": "",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "kode_paket",
+									"value": "51MVZ",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "kode_matkul",
+									"value": "50050002",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "soal",
+									"value": "testing 123 123 123",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "bobot_soal",
+									"value": "25",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "no_urut",
+									"value": "{{no_urut}}",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "",
+									"contentType": "application/json",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/rel-paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								"rel-paket-soal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Soal All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay?page=1&limit=5",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Soal",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/:kode_soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								":kode_soal"
+							],
+							"variable": [
+								{
+									"key": "kode_soal",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari Soal",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/search?find=10&page=1&limit=25",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "10"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "25"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah status Soal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/:kode_soal/status",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								":kode_soal",
+								"status"
+							],
+							"variable": [
+								{
+									"key": "kode_soal",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Soal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_seksi')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "gambar_soal_1",
+									"contentType": "multipart/form-data",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "gambar_soal_2",
+									"contentType": "multipart/form-data",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "gambar_soal_3",
+									"contentType": "multipart/form-data",
+									"type": "file",
+									"src": []
+								},
+								{
+									"key": "array_gambar_soal",
+									"value": "",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "kode_matkul",
+									"value": "",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "soal",
+									"value": "",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "bobot_soal",
+									"value": "",
+									"contentType": "application/json",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "",
+									"contentType": "application/json",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Soal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/paket-soal/:kode_soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"paket-soal",
+								":kode_soal"
+							],
+							"variable": [
+								{
+									"key": "kode_soal",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah Soal ke PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_paket');"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set('no_urut', pm.response.json().array_soal)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_paket\": \"{{kode_paket}}\",\r\n    \"quota_soal\": 10,\r\n    \"array_soal\": [ 1, 2, 3, 4, 5 ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								"paket-soal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Soal di PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_paket');"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_paket\": \"{{kode_paket}}\",\r\n    \"quota_soal\": \"number\",    \r\n    \"array_soal\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								"paket-soal"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "hapus Soal pada PaketSoal",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.get('kode_paket');"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"kode_paket\": \"{{kode_paket}}\",\r\n    \"array_soal\": []\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/dosen/soal-essay/paket-soal",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								"soal-essay",
+								"paket-soal"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "All Role ~no auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"loginData\": \"User 8\",\r\n    \"password\": \"ujianunj\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/login",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Refresh Token",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\": \" \"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/refresh-token",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"refresh-token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get Captcha",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "http://{{host}}/captcha",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"captcha"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "lupa-pw ke admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"rayleigh@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/lupa-pw",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lupa-pw"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "lupa-pw ke email",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"clarareiddiff99@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/lupa-pw/email",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"lupa-pw",
+								"email"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Password",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"new_password\": \"qwerty123\",\r\n    \"confirm_password\": \"qwerty123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/ubah-pw",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"ubah-pw"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "All Role ~auth",
+			"item": [
+				{
+					"name": "tampilkan Profil User loggedIn",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/profil",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"profil"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ubah Password",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"current_password\": \"ujianunj\",\r\n    \"new_password\": \"qwerty123\",\r\n    \"confirm_password\": \"qwerty123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/ubah-pw",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"ubah-pw"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tambah/ubah Foto profil",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "foto_profil",
+									"type": "file",
+									"src": "/C:/Users/azhar/OneDrive/Pictures/94c9ae23-abf4-4026-8319-1d9bac26b45b.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://{{host}}/avatar",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"avatar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Matakuliah dan Kelas per semester",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/semester/:kode_semester?page=1&limit=15",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"semester",
+								":kode_semester"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "15"
+								}
+							],
+							"variable": [
+								{
+									"key": "kode_semester",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Kelas all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/kelas?page=3&limit=10",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"kelas"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "3"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cari Kelas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/kelas/search?find=pendidikan&page=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"kelas",
+								"search"
+							],
+							"query": [
+								{
+									"key": "find",
+									"value": "pendidikan"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Pengumuman",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/pengumuman",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"pengumuman"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Profil Kelas",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set('kode_seksi', pm.response.json().kode_seksi)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/kelas/:kode_seksi",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"kelas",
+								":kode_seksi"
+							],
+							"variable": [
+								{
+									"key": "kode_seksi",
+									"value": "1912600003"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Profil Dosen",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/dosen/:kode_dosen",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"dosen",
+								":kode_dosen"
+							],
+							"variable": [
+								{
+									"key": "kode_dosen",
+									"value": "7"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Profil Mahasiswa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/mahasiswa/:kode_mhs",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"mahasiswa",
+								":kode_mhs"
+							],
+							"variable": [
+								{
+									"key": "kode_mhs",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "tampilkan Profil PaketSoal",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.collectionVariables.set('kode_paket', pm.response.json().kode_paket)"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://{{host}}/paket-soal/:kode_paket",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"paket-soal",
+								":kode_paket"
+							],
+							"variable": [
+								{
+									"key": "kode_paket",
+									"value": "51MVZ"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwidXNlcm5hbWUiOiJVc2VyIDgiLCJlbWFpbCI6ImNpdGFkZWxAYW9sLmNvbSIsImlhdCI6MTY0MDI2MzM0N30.F4T8jvAzbJ5BK_Yje16TSq_u9co2Y9_dKurDs2p1DW8\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://{{host}}/logout",
+							"protocol": "http",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "user: user 16,\npass: ujianunj,\nrole: mahasiswa",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "kode_paket",
+			"value": ""
+		},
+		{
+			"key": "kode_seksi",
+			"value": ""
+		},
+		{
+			"key": "no_urut",
+			"value": ""
+		}
+	]
+}

@@ -1,0 +1,419 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"appujianessay"},
+{"type":"table","name":"captcha","database":"appujianessay","data":
+[
+{"kode_captcha":"1","pertanyaan":"Berapakah 2+7?","jawaban":"9"},
+{"kode_captcha":"2","pertanyaan":"Berapakah 3 x 4?","jawaban":"12"},
+{"kode_captcha":"3","pertanyaan":"Berapakah 10-7?","jawaban":"3"},
+{"kode_captcha":"4","pertanyaan":"Berapakah 11+13?","jawaban":"24"},
+{"kode_captcha":"5","pertanyaan":"Berapakah 5+6?","jawaban":"11"}
+]
+}
+,{"type":"table","name":"dosen","database":"appujianessay","data":
+[
+{"kode_dosen":"1","id_user":"2","NIP":"1910012345678901","NIDN":"1111111111","NIDK":"1111111111","nama_lengkap":"Bayley Cooke","alamat":null,"nomor_telp":"081256789012","created_at":"2021-11-24 16:32:59","updated_at":null},
+{"kode_dosen":"2","id_user":"3","NIP":"1910012345678902","NIDN":"1111111113","NIDK":"1111111113","nama_lengkap":"Orson Alvarez","alamat":null,"nomor_telp":"081256789014","created_at":"2021-11-24 16:32:59","updated_at":null},
+{"kode_dosen":"3","id_user":"4","NIP":"1910012345678903","NIDN":"1111111115","NIDK":"1111111115","nama_lengkap":"Neriah Merrill","alamat":null,"nomor_telp":"081256789016","created_at":"2021-11-24 16:32:59","updated_at":null},
+{"kode_dosen":"4","id_user":"5","NIP":"1910012345678904","NIDN":"1111111117","NIDK":"1111111117","nama_lengkap":"Ebony Wooten","alamat":null,"nomor_telp":"081256789018","created_at":"2021-11-24 16:33:00","updated_at":null},
+{"kode_dosen":"5","id_user":"6","NIP":"1910012345678905","NIDN":"1111111119","NIDK":"1111111119","nama_lengkap":"Michalina Fraser","alamat":null,"nomor_telp":"081256789020","created_at":"2021-11-24 16:33:00","updated_at":null},
+{"kode_dosen":"6","id_user":"7","NIP":"1910012345678906","NIDN":"1111111121","NIDK":"1111111121","nama_lengkap":"Aila Parrish","alamat":null,"nomor_telp":"081256789022","created_at":"2021-11-24 16:33:00","updated_at":null},
+{"kode_dosen":"7","id_user":"8","NIP":"1910012345678907","NIDN":"1111111123","NIDK":"1111111123","nama_lengkap":"Elana Charles","alamat":null,"nomor_telp":"081256789024","created_at":"2021-11-24 16:33:00","updated_at":null},
+{"kode_dosen":"8","id_user":"9","NIP":"1910012345678908","NIDN":"1111111125","NIDK":"1111111125","nama_lengkap":"Alannah Herbert","alamat":null,"nomor_telp":"081256789026","created_at":"2021-11-24 16:33:01","updated_at":null},
+{"kode_dosen":"9","id_user":"10","NIP":"1910012345678909","NIDN":"1111111127","NIDK":"1111111127","nama_lengkap":"Fardeen Pate","alamat":null,"nomor_telp":"081256789028","created_at":"2021-11-24 16:33:01","updated_at":null},
+{"kode_dosen":"10","id_user":"11","NIP":"1910012345678910","NIDN":"1111111129","NIDK":"1111111129","nama_lengkap":"Loretta Porter","alamat":null,"nomor_telp":"081256789030","created_at":"2021-11-24 16:33:01","updated_at":null},
+{"kode_dosen":"11","id_user":"12","NIP":"1910012345678911","NIDN":"1111111131","NIDK":"1111111131","nama_lengkap":"Reyansh Barclay","alamat":null,"nomor_telp":"081256789032","created_at":"2021-11-24 16:33:01","updated_at":null},
+{"kode_dosen":"12","id_user":"13","NIP":"1910012345678912","NIDN":"1111111133","NIDK":"1111111133","nama_lengkap":"Jack Serrano","alamat":null,"nomor_telp":"081256789034","created_at":"2021-11-24 16:33:02","updated_at":null},
+{"kode_dosen":"13","id_user":"14","NIP":"1910012345678913","NIDN":"1111111135","NIDK":"1111111135","nama_lengkap":"Naomi Lara","alamat":null,"nomor_telp":"081256789036","created_at":"2021-11-24 16:33:02","updated_at":null},
+{"kode_dosen":"14","id_user":"15","NIP":"1910012345678914","NIDN":"1111111137","NIDK":"1111111137","nama_lengkap":"Beatriz Portillo","alamat":null,"nomor_telp":"081256789038","created_at":"2021-11-24 16:33:02","updated_at":null}
+]
+}
+,{"type":"table","name":"kelas","database":"appujianessay","data":
+[
+{"kode_seksi":"1912600000","kode_matkul":"50050001","semester":"3","hari":"senin","jam":"08:00 - 09:00","deskripsi":"Ruang 304"},
+{"kode_seksi":"1912600001","kode_matkul":"50050001","semester":"3","hari":"senin","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600002","kode_matkul":"50050002","semester":"2","hari":"selasa","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600003","kode_matkul":"50050002","semester":"2","hari":"selasa","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600004","kode_matkul":"50050003","semester":"2","hari":"selasa","jam":"10:00 - 11:00","deskripsi":null},
+{"kode_seksi":"1912600005","kode_matkul":"50050003","semester":"2","hari":"selasa","jam":"13:00 - 14:00","deskripsi":null},
+{"kode_seksi":"1912600006","kode_matkul":"50050004","semester":"5","hari":"rabu","jam":"08:00 - 09:45","deskripsi":null},
+{"kode_seksi":"1912600007","kode_matkul":"50050004","semester":"5","hari":"rabu","jam":"09:45 - 11:45","deskripsi":null},
+{"kode_seksi":"1912600008","kode_matkul":"50050005","semester":"5","hari":"rabu","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600009","kode_matkul":"50050005","semester":"5","hari":"kamis","jam":"09:00 - 10:00","deskripsi":"Ruang 301"},
+{"kode_seksi":"1912600010","kode_matkul":"50050006","semester":"2","hari":"kamis","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600011","kode_matkul":"50050006","semester":"2","hari":"kamis","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600012","kode_matkul":"50050007","semester":"6","hari":"selasa","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600013","kode_matkul":"50050007","semester":"6","hari":"selasa","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600014","kode_matkul":"50050008","semester":"5","hari":"senin","jam":"10:00 - 11:00","deskripsi":null},
+{"kode_seksi":"1912600015","kode_matkul":"50050008","semester":"5","hari":"senin","jam":"13:00 - 14:00","deskripsi":null},
+{"kode_seksi":"1912600016","kode_matkul":"50050009","semester":"2","hari":"jumat","jam":"08:00 - 09:45","deskripsi":null},
+{"kode_seksi":"1912600017","kode_matkul":"50050009","semester":"2","hari":"jumat","jam":"09:45 - 11:45","deskripsi":null},
+{"kode_seksi":"1912600018","kode_matkul":"50050010","semester":"3","hari":"jumat","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600019","kode_matkul":"50050010","semester":"3","hari":"jumat","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600020","kode_matkul":"50050011","semester":"3","hari":"selasa","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600021","kode_matkul":"50050011","semester":"3","hari":"rabu","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600022","kode_matkul":"50050012","semester":"4","hari":"kamis","jam":"08:00 - 09:00","deskripsi":null},
+{"kode_seksi":"1912600023","kode_matkul":"50050012","semester":"4","hari":"kamis","jam":"09:00 - 10:00","deskripsi":null},
+{"kode_seksi":"1912600024","kode_matkul":"50050013","semester":"8","hari":"kamis","jam":"10:00 - 11:00","deskripsi":null},
+{"kode_seksi":"1912600025","kode_matkul":"50050014","semester":"8","hari":"kamis","jam":"13:00 - 14:00","deskripsi":null},
+{"kode_seksi":"1912600026","kode_matkul":"50050015","semester":"8","hari":"kamis","jam":"08:00 - 09:45","deskripsi":"Ruang 208"},
+{"kode_seksi":"1912600027","kode_matkul":"50050000","semester":"3","hari":"jumat","jam":"09:00 - 11:00","deskripsi":"telat input"}
+]
+}
+,{"type":"table","name":"lupa_pw","database":"appujianessay","data":
+[
+{"kode_reset_pw":"1","username":"User 6","email":"wkrebs@att.net","status":"belum"}
+]
+}
+,{"type":"table","name":"mahasiswa","database":"appujianessay","data":
+[
+{"kode_mhs":"1","id_user":"16","NIM":"1912627000","nama_lengkap":"yayayaya","alamat":"jl.bojong menteng","nomor_telp":"081288877769","created_at":"2021-11-24 16:33:40","updated_at":"2022-02-04 15:36:23"},
+{"kode_mhs":"2","id_user":"17","NIM":"1912627001","nama_lengkap":"Manahil Vincent","alamat":null,"nomor_telp":"081234567002","created_at":"2021-11-24 16:33:40","updated_at":null},
+{"kode_mhs":"3","id_user":"18","NIM":"1912627002","nama_lengkap":"Darrell Mccarthy","alamat":null,"nomor_telp":"081234567004","created_at":"2021-11-24 16:33:40","updated_at":null},
+{"kode_mhs":"4","id_user":"19","NIM":"1912627003","nama_lengkap":"Dilara Dudley","alamat":null,"nomor_telp":"081234567006","created_at":"2021-11-24 16:33:40","updated_at":null},
+{"kode_mhs":"5","id_user":"20","NIM":"1912627004","nama_lengkap":"Patrik Miranda","alamat":null,"nomor_telp":"081234567008","created_at":"2021-11-24 16:33:41","updated_at":null},
+{"kode_mhs":"6","id_user":"21","NIM":"1912627005","nama_lengkap":"Farhana Macfarlane","alamat":null,"nomor_telp":"081234567010","created_at":"2021-11-24 16:33:41","updated_at":null},
+{"kode_mhs":"7","id_user":"22","NIM":"1912627006","nama_lengkap":"Scarlet Shaffer","alamat":null,"nomor_telp":"081234567012","created_at":"2021-11-24 16:33:41","updated_at":null},
+{"kode_mhs":"8","id_user":"23","NIM":"1912627007","nama_lengkap":"Freddie Mcfadden","alamat":null,"nomor_telp":"081234567014","created_at":"2021-11-24 16:33:41","updated_at":null},
+{"kode_mhs":"9","id_user":"24","NIM":"1912627008","nama_lengkap":"Braden Nicholson","alamat":null,"nomor_telp":"081234567016","created_at":"2021-11-24 16:33:42","updated_at":null},
+{"kode_mhs":"10","id_user":"25","NIM":"1912627009","nama_lengkap":"Heidi Schofield","alamat":null,"nomor_telp":"081234567018","created_at":"2021-11-24 16:33:42","updated_at":null},
+{"kode_mhs":"11","id_user":"26","NIM":"1912627010","nama_lengkap":"Tyler-James Gamble","alamat":null,"nomor_telp":"081234567020","created_at":"2021-11-24 16:33:42","updated_at":null},
+{"kode_mhs":"12","id_user":"27","NIM":"1912627011","nama_lengkap":"Tommie Fraser","alamat":null,"nomor_telp":"081234567022","created_at":"2021-11-24 16:33:42","updated_at":null},
+{"kode_mhs":"13","id_user":"28","NIM":"1912627012","nama_lengkap":"Zhane Burns","alamat":null,"nomor_telp":"081234567024","created_at":"2021-11-24 16:33:42","updated_at":null},
+{"kode_mhs":"14","id_user":"29","NIM":"1912627013","nama_lengkap":"Jess O'Doherty","alamat":null,"nomor_telp":"081234567026","created_at":"2021-11-24 16:33:43","updated_at":null},
+{"kode_mhs":"15","id_user":"30","NIM":"1912627014","nama_lengkap":"Phyllis Johns","alamat":null,"nomor_telp":"081234567028","created_at":"2021-11-24 16:33:43","updated_at":null},
+{"kode_mhs":"16","id_user":"31","NIM":"1912627015","nama_lengkap":"Bree Merritt","alamat":null,"nomor_telp":"081234567030","created_at":"2021-11-24 16:33:43","updated_at":null},
+{"kode_mhs":"17","id_user":"32","NIM":"1912627016","nama_lengkap":"Alanah Aldred","alamat":null,"nomor_telp":"081234567032","created_at":"2021-11-24 16:33:43","updated_at":null},
+{"kode_mhs":"18","id_user":"33","NIM":"1912627017","nama_lengkap":"Seth Kaufman","alamat":null,"nomor_telp":"081234567034","created_at":"2021-11-24 16:33:43","updated_at":null},
+{"kode_mhs":"19","id_user":"34","NIM":"1912627018","nama_lengkap":"Ewen Huber","alamat":null,"nomor_telp":"081234567036","created_at":"2021-11-24 16:33:43","updated_at":null},
+{"kode_mhs":"20","id_user":"35","NIM":"1912627019","nama_lengkap":"Blaine Arias","alamat":null,"nomor_telp":"081234567038","created_at":"2021-11-24 16:33:44","updated_at":null},
+{"kode_mhs":"21","id_user":"36","NIM":"1912627020","nama_lengkap":"Thierry Larsen","alamat":null,"nomor_telp":"081234567040","created_at":"2021-11-24 16:33:44","updated_at":null},
+{"kode_mhs":"22","id_user":"37","NIM":"1912627021","nama_lengkap":"Nathaniel Parker","alamat":null,"nomor_telp":"081234567042","created_at":"2021-11-24 16:33:44","updated_at":null},
+{"kode_mhs":"23","id_user":"38","NIM":"1912627022","nama_lengkap":"Geraint Rhodes","alamat":null,"nomor_telp":"081234567044","created_at":"2021-11-24 16:33:44","updated_at":null},
+{"kode_mhs":"24","id_user":"39","NIM":"1912627023","nama_lengkap":"Olly Schwartz","alamat":null,"nomor_telp":"081234567046","created_at":"2021-11-24 16:33:45","updated_at":null},
+{"kode_mhs":"25","id_user":"40","NIM":"1912627024","nama_lengkap":"Samirah Lugo","alamat":null,"nomor_telp":"081234567048","created_at":"2021-11-24 16:33:45","updated_at":null},
+{"kode_mhs":"26","id_user":"41","NIM":"1912627025","nama_lengkap":"Mekhi Rooney","alamat":null,"nomor_telp":"081234567050","created_at":"2021-11-24 16:33:45","updated_at":null},
+{"kode_mhs":"27","id_user":"42","NIM":"1912627026","nama_lengkap":"Saad Lord","alamat":null,"nomor_telp":"081234567052","created_at":"2021-11-24 16:33:45","updated_at":null},
+{"kode_mhs":"28","id_user":"43","NIM":"1912627027","nama_lengkap":"Arwa Lester","alamat":null,"nomor_telp":"081234567054","created_at":"2021-11-24 16:33:45","updated_at":null},
+{"kode_mhs":"29","id_user":"44","NIM":"1912627028","nama_lengkap":"Theon Carroll","alamat":null,"nomor_telp":"081234567056","created_at":"2021-11-24 16:33:46","updated_at":null},
+{"kode_mhs":"30","id_user":"45","NIM":"1912627029","nama_lengkap":"Maizie Lott","alamat":null,"nomor_telp":"081234567058","created_at":"2021-11-24 16:33:46","updated_at":null},
+{"kode_mhs":"31","id_user":"46","NIM":"1912627030","nama_lengkap":"Ewan Rawlings","alamat":null,"nomor_telp":"081234567060","created_at":"2021-11-24 16:33:46","updated_at":null},
+{"kode_mhs":"32","id_user":"47","NIM":"1912627031","nama_lengkap":"Shakeel Lopez","alamat":null,"nomor_telp":"081234567062","created_at":"2021-11-24 16:33:46","updated_at":null},
+{"kode_mhs":"33","id_user":"48","NIM":"1912627032","nama_lengkap":"Becky Miller","alamat":null,"nomor_telp":"081234567064","created_at":"2021-11-24 16:33:47","updated_at":null},
+{"kode_mhs":"34","id_user":"49","NIM":"1912627033","nama_lengkap":"Demi-Lee Murillo","alamat":null,"nomor_telp":"081234567066","created_at":"2021-11-24 16:33:47","updated_at":null},
+{"kode_mhs":"35","id_user":"50","NIM":"1912627034","nama_lengkap":"Shakil O'Quinn","alamat":null,"nomor_telp":"081234567068","created_at":"2021-11-24 16:33:47","updated_at":null},
+{"kode_mhs":"36","id_user":"51","NIM":"1912627035","nama_lengkap":"Tianna Velasquez","alamat":null,"nomor_telp":"081234567070","created_at":"2021-11-24 16:33:47","updated_at":null},
+{"kode_mhs":"37","id_user":"52","NIM":"1912627036","nama_lengkap":"Kamil Cowan","alamat":null,"nomor_telp":"081234567072","created_at":"2021-11-24 16:33:47","updated_at":null},
+{"kode_mhs":"38","id_user":"53","NIM":"1912627037","nama_lengkap":"Mariah Begum","alamat":null,"nomor_telp":"081234567074","created_at":"2021-11-24 16:33:48","updated_at":null},
+{"kode_mhs":"39","id_user":"54","NIM":"1912627038","nama_lengkap":"Oakley Whitaker","alamat":null,"nomor_telp":"081234567076","created_at":"2021-11-24 16:33:48","updated_at":null},
+{"kode_mhs":"40","id_user":"55","NIM":"1912627039","nama_lengkap":"Amayah Dickinson","alamat":null,"nomor_telp":"081234567078","created_at":"2021-11-24 16:33:48","updated_at":null},
+{"kode_mhs":"41","id_user":"56","NIM":"1912627040","nama_lengkap":"Tomi Kaur","alamat":null,"nomor_telp":"081234567080","created_at":"2021-11-24 16:33:48","updated_at":null},
+{"kode_mhs":"42","id_user":"57","NIM":"1912627041","nama_lengkap":"Balraj Newton","alamat":null,"nomor_telp":"081234567082","created_at":"2021-11-24 16:33:48","updated_at":null},
+{"kode_mhs":"43","id_user":"58","NIM":"1912627042","nama_lengkap":"Ryker Cousins","alamat":null,"nomor_telp":"081234567084","created_at":"2021-11-24 16:33:49","updated_at":null},
+{"kode_mhs":"44","id_user":"59","NIM":"1912627043","nama_lengkap":"Kathryn Mcmanus","alamat":null,"nomor_telp":"081234567086","created_at":"2021-11-24 16:33:49","updated_at":null},
+{"kode_mhs":"45","id_user":"60","NIM":"1912627044","nama_lengkap":"Homer Andrews","alamat":null,"nomor_telp":"081234567088","created_at":"2021-11-24 16:33:49","updated_at":null},
+{"kode_mhs":"46","id_user":"61","NIM":"1912627045","nama_lengkap":"Alexandra Harding","alamat":null,"nomor_telp":"081234567090","created_at":"2021-11-24 16:33:49","updated_at":null},
+{"kode_mhs":"47","id_user":"62","NIM":"1912627046","nama_lengkap":"Calum Carver","alamat":null,"nomor_telp":"081234567092","created_at":"2021-11-24 16:33:49","updated_at":null},
+{"kode_mhs":"48","id_user":"63","NIM":"1912627047","nama_lengkap":"Kelsie Valencia","alamat":null,"nomor_telp":"081234567094","created_at":"2021-11-24 16:33:50","updated_at":null},
+{"kode_mhs":"49","id_user":"64","NIM":"1912627048","nama_lengkap":"Brody Hayden","alamat":null,"nomor_telp":"081234567096","created_at":"2021-11-24 16:33:50","updated_at":null},
+{"kode_mhs":"50","id_user":"65","NIM":"1912627049","nama_lengkap":"Tilly Humphrey","alamat":null,"nomor_telp":"081234567098","created_at":"2021-11-24 16:33:50","updated_at":null},
+{"kode_mhs":"51","id_user":"66","NIM":"1912627050","nama_lengkap":"Jaxson Tapia","alamat":null,"nomor_telp":"081234567100","created_at":"2021-11-24 16:33:51","updated_at":null},
+{"kode_mhs":"52","id_user":"67","NIM":"1912627051","nama_lengkap":"Khadeeja Croft","alamat":null,"nomor_telp":"081234567102","created_at":"2021-11-24 16:33:51","updated_at":null},
+{"kode_mhs":"53","id_user":"68","NIM":"1912627052","nama_lengkap":"Shayan Donovan","alamat":null,"nomor_telp":"081234567104","created_at":"2021-11-24 16:33:51","updated_at":null},
+{"kode_mhs":"54","id_user":"69","NIM":"1912627053","nama_lengkap":"Inez Cohen","alamat":null,"nomor_telp":"081234567106","created_at":"2021-11-24 16:33:51","updated_at":null},
+{"kode_mhs":"55","id_user":"70","NIM":"1912627054","nama_lengkap":"Pearce Appleton","alamat":null,"nomor_telp":"081234567108","created_at":"2021-11-24 16:33:51","updated_at":null},
+{"kode_mhs":"56","id_user":"71","NIM":"1912627055","nama_lengkap":"Tahmina Mccoy","alamat":null,"nomor_telp":"081234567110","created_at":"2021-11-24 16:33:52","updated_at":null},
+{"kode_mhs":"57","id_user":"72","NIM":"1912627056","nama_lengkap":"Ronald Jennings","alamat":null,"nomor_telp":"081234567112","created_at":"2021-11-24 16:33:52","updated_at":null},
+{"kode_mhs":"58","id_user":"73","NIM":"1912627057","nama_lengkap":"Cohen Mathis","alamat":null,"nomor_telp":"081234567114","created_at":"2021-11-24 16:33:52","updated_at":null},
+{"kode_mhs":"59","id_user":"74","NIM":"1912627058","nama_lengkap":"Maeve Reid","alamat":null,"nomor_telp":"081234567116","created_at":"2021-11-24 16:33:52","updated_at":null},
+{"kode_mhs":"60","id_user":"75","NIM":"1912627059","nama_lengkap":"Tiya Salt","alamat":null,"nomor_telp":"081234567118","created_at":"2021-11-24 16:33:53","updated_at":null},
+{"kode_mhs":"61","id_user":"76","NIM":"1912627060","nama_lengkap":"Ivie Barron","alamat":null,"nomor_telp":"081234567120","created_at":"2021-11-24 16:33:53","updated_at":null},
+{"kode_mhs":"62","id_user":"77","NIM":"1912627061","nama_lengkap":"Fox Bright","alamat":null,"nomor_telp":"081234567122","created_at":"2021-11-24 16:33:53","updated_at":null},
+{"kode_mhs":"63","id_user":"78","NIM":"1912627062","nama_lengkap":"Elizabeth Ashley","alamat":null,"nomor_telp":"081234567124","created_at":"2021-11-24 16:33:53","updated_at":null},
+{"kode_mhs":"64","id_user":"79","NIM":"1912627063","nama_lengkap":"Wayne Clegg","alamat":null,"nomor_telp":"081234567126","created_at":"2021-11-24 16:33:53","updated_at":null},
+{"kode_mhs":"65","id_user":"80","NIM":"1912627064","nama_lengkap":"India Huynh","alamat":null,"nomor_telp":"081234567128","created_at":"2021-11-24 16:33:54","updated_at":null},
+{"kode_mhs":"66","id_user":"81","NIM":"1912627065","nama_lengkap":"Emilio Greaves","alamat":null,"nomor_telp":"081234567130","created_at":"2021-11-24 16:33:54","updated_at":null},
+{"kode_mhs":"67","id_user":"82","NIM":"1912627066","nama_lengkap":"Acacia Cartwright","alamat":null,"nomor_telp":"081234567132","created_at":"2021-11-24 16:33:54","updated_at":null},
+{"kode_mhs":"68","id_user":"83","NIM":"1912627067","nama_lengkap":"Cruz Nava","alamat":null,"nomor_telp":"081234567134","created_at":"2021-11-24 16:33:54","updated_at":null},
+{"kode_mhs":"69","id_user":"84","NIM":"1912627068","nama_lengkap":"Abubakar Matthews","alamat":null,"nomor_telp":"081234567136","created_at":"2021-11-24 16:33:55","updated_at":null},
+{"kode_mhs":"70","id_user":"85","NIM":"1912627069","nama_lengkap":"Janice Cordova","alamat":null,"nomor_telp":"081234567138","created_at":"2021-11-24 16:33:55","updated_at":null},
+{"kode_mhs":"71","id_user":"86","NIM":"1912627070","nama_lengkap":"Ephraim Foley","alamat":null,"nomor_telp":"081234567140","created_at":"2021-11-24 16:33:55","updated_at":null},
+{"kode_mhs":"72","id_user":"87","NIM":"1912627071","nama_lengkap":"Ziggy Curry","alamat":null,"nomor_telp":"081234567142","created_at":"2021-11-24 16:33:55","updated_at":null},
+{"kode_mhs":"73","id_user":"88","NIM":"1912627072","nama_lengkap":"Victoria Cantu","alamat":null,"nomor_telp":"081234567144","created_at":"2021-11-24 16:33:56","updated_at":null},
+{"kode_mhs":"74","id_user":"89","NIM":"1912627073","nama_lengkap":"Hilda Odling","alamat":null,"nomor_telp":"081234567146","created_at":"2021-11-24 16:33:56","updated_at":null},
+{"kode_mhs":"75","id_user":"90","NIM":"1912627074","nama_lengkap":"Scarlette Dillon","alamat":null,"nomor_telp":"081234567148","created_at":"2021-11-24 16:33:56","updated_at":null},
+{"kode_mhs":"76","id_user":"91","NIM":"1912627075","nama_lengkap":"Darrel Peralta","alamat":null,"nomor_telp":"081234567150","created_at":"2021-11-24 16:33:56","updated_at":null},
+{"kode_mhs":"77","id_user":"92","NIM":"1912627076","nama_lengkap":"Amy Atkins","alamat":null,"nomor_telp":"081234567152","created_at":"2021-11-24 16:33:57","updated_at":null},
+{"kode_mhs":"78","id_user":"93","NIM":"1912627077","nama_lengkap":"Farhana Easton","alamat":null,"nomor_telp":"081234567154","created_at":"2021-11-24 16:33:57","updated_at":null},
+{"kode_mhs":"79","id_user":"94","NIM":"1912627078","nama_lengkap":"Ayesha Stewart","alamat":null,"nomor_telp":"081234567156","created_at":"2021-11-24 16:33:57","updated_at":null},
+{"kode_mhs":"80","id_user":"95","NIM":"1912627079","nama_lengkap":"Jillian Barnett","alamat":null,"nomor_telp":"081234567158","created_at":"2021-11-24 16:33:58","updated_at":null},
+{"kode_mhs":"81","id_user":"96","NIM":"1912627080","nama_lengkap":"Duane Whittaker","alamat":null,"nomor_telp":"081234567160","created_at":"2021-11-24 16:33:58","updated_at":null},
+{"kode_mhs":"82","id_user":"97","NIM":"1912627081","nama_lengkap":"Cherise Mcintosh","alamat":null,"nomor_telp":"081234567162","created_at":"2021-11-24 16:33:58","updated_at":null},
+{"kode_mhs":"83","id_user":"98","NIM":"1912627082","nama_lengkap":"Joao Young","alamat":null,"nomor_telp":"081234567164","created_at":"2021-11-24 16:33:59","updated_at":null},
+{"kode_mhs":"84","id_user":"99","NIM":"1912627083","nama_lengkap":"Laaibah Neville","alamat":null,"nomor_telp":"081234567166","created_at":"2021-11-24 16:33:59","updated_at":null},
+{"kode_mhs":"85","id_user":"100","NIM":"1912627084","nama_lengkap":"Azra Schmidt","alamat":null,"nomor_telp":"081234567168","created_at":"2021-11-24 16:33:59","updated_at":null},
+{"kode_mhs":"86","id_user":"101","NIM":"1912627085","nama_lengkap":"Kacper Mejia","alamat":null,"nomor_telp":"081234567170","created_at":"2021-11-24 16:33:59","updated_at":null},
+{"kode_mhs":"87","id_user":"102","NIM":"1912627086","nama_lengkap":"Miranda Noel","alamat":null,"nomor_telp":"081234567172","created_at":"2021-11-24 16:33:59","updated_at":null},
+{"kode_mhs":"88","id_user":"103","NIM":"1912627087","nama_lengkap":"Jorja Owen","alamat":null,"nomor_telp":"081234567174","created_at":"2021-11-24 16:34:00","updated_at":null},
+{"kode_mhs":"89","id_user":"104","NIM":"1912627088","nama_lengkap":"Carson Walls","alamat":null,"nomor_telp":"081234567176","created_at":"2021-11-24 16:34:00","updated_at":null},
+{"kode_mhs":"90","id_user":"105","NIM":"1912627089","nama_lengkap":"Keiren Mcleod","alamat":null,"nomor_telp":"081234567178","created_at":"2021-11-24 16:34:00","updated_at":null},
+{"kode_mhs":"91","id_user":"106","NIM":"1912627090","nama_lengkap":"Jeff Mills","alamat":null,"nomor_telp":"081234567180","created_at":"2021-11-24 16:34:00","updated_at":null},
+{"kode_mhs":"92","id_user":"107","NIM":"1912627091","nama_lengkap":"Merlin Leblanc","alamat":null,"nomor_telp":"081234567182","created_at":"2021-11-24 16:34:01","updated_at":null},
+{"kode_mhs":"93","id_user":"108","NIM":"1912627092","nama_lengkap":"Abi Blake","alamat":null,"nomor_telp":"081234567184","created_at":"2021-11-24 16:34:01","updated_at":null},
+{"kode_mhs":"94","id_user":"109","NIM":"1912627093","nama_lengkap":"Shanna Farrington","alamat":null,"nomor_telp":"081234567186","created_at":"2021-11-24 16:34:01","updated_at":null},
+{"kode_mhs":"95","id_user":"110","NIM":"1912627094","nama_lengkap":"Rui Orr","alamat":null,"nomor_telp":"081234567188","created_at":"2021-11-24 16:34:01","updated_at":null},
+{"kode_mhs":"96","id_user":"111","NIM":"1912627095","nama_lengkap":"Chase Woods","alamat":null,"nomor_telp":"081234567190","created_at":"2021-11-24 16:34:02","updated_at":null},
+{"kode_mhs":"97","id_user":"112","NIM":"1912627096","nama_lengkap":"Zacharias Talbot","alamat":null,"nomor_telp":"081234567192","created_at":"2021-11-24 16:34:02","updated_at":null},
+{"kode_mhs":"98","id_user":"113","NIM":"1912627097","nama_lengkap":"Nikolas Forster","alamat":null,"nomor_telp":"081234567194","created_at":"2021-11-24 16:34:02","updated_at":null},
+{"kode_mhs":"99","id_user":"114","NIM":"1912627098","nama_lengkap":"Madelaine Lowe","alamat":null,"nomor_telp":"081234567196","created_at":"2021-11-24 16:34:03","updated_at":null}
+]
+}
+,{"type":"table","name":"matakuliah","database":"appujianessay","data":
+[
+{"kode_matkul":"50050000","kode_kel_mk":"1","kode_peminatan":"4","nama_matkul":"Pendidikan Agama Islam","sks":"2","deskripsi":"test"},
+{"kode_matkul":"50050001","kode_kel_mk":"1","kode_peminatan":"4","nama_matkul":"Pendidikan Agama Kristen","sks":"2","deskripsi":"test"},
+{"kode_matkul":"50050002","kode_kel_mk":"4","kode_peminatan":"4","nama_matkul":"Pancasila","sks":"2","deskripsi":null},
+{"kode_matkul":"50050003","kode_kel_mk":"4","kode_peminatan":"4","nama_matkul":"Bahasa Indonesia","sks":"2","deskripsi":null},
+{"kode_matkul":"50050004","kode_kel_mk":"3","kode_peminatan":"4","nama_matkul":"Landasan Ilmu Pendidikan","sks":"4","deskripsi":null},
+{"kode_matkul":"50050005","kode_kel_mk":"3","kode_peminatan":"4","nama_matkul":"Psikologi Perkembangan","sks":"2","deskripsi":null},
+{"kode_matkul":"50050006","kode_kel_mk":"3","kode_peminatan":"4","nama_matkul":"Teori Belajar dan Pembelajaran","sks":"4","deskripsi":null},
+{"kode_matkul":"50050007","kode_kel_mk":"1","kode_peminatan":"2","nama_matkul":"Basis Data","sks":"3","deskripsi":null},
+{"kode_matkul":"50050008","kode_kel_mk":"1","kode_peminatan":"2","nama_matkul":"Rekayasa Perangkat Lunak","sks":"3","deskripsi":null},
+{"kode_matkul":"50050009","kode_kel_mk":"1","kode_peminatan":"1","nama_matkul":"Desain Web","sks":"3","deskripsi":null},
+{"kode_matkul":"50050010","kode_kel_mk":"1","kode_peminatan":"1","nama_matkul":"Animasi Komputer","sks":"3","deskripsi":null},
+{"kode_matkul":"50050011","kode_kel_mk":"1","kode_peminatan":"3","nama_matkul":"Perancangan Jaringan Komputer","sks":"3","deskripsi":null},
+{"kode_matkul":"50050012","kode_kel_mk":"1","kode_peminatan":"3","nama_matkul":"Pemrograman Jaringan","sks":"3","deskripsi":null},
+{"kode_matkul":"50050013","kode_kel_mk":"2","kode_peminatan":"4","nama_matkul":"Kriptografi","sks":"3","deskripsi":null},
+{"kode_matkul":"50050014","kode_kel_mk":"2","kode_peminatan":"4","nama_matkul":"Data Mining","sks":"2","deskripsi":null},
+{"kode_matkul":"50050015","kode_kel_mk":"2","kode_peminatan":"4","nama_matkul":"e-Commerce","sks":"3","deskripsi":null}
+]
+}
+,{"type":"table","name":"paket_soal","database":"appujianessay","data":
+[
+{"kode_paket":"48VVL","kode_ujian":"1","aktif":"1"},
+{"kode_paket":"6CIW9","kode_ujian":"1","aktif":"1"},
+{"kode_paket":"A3FJ5","kode_ujian":"1","aktif":"1"},
+{"kode_paket":"AS2Q9","kode_ujian":"1","aktif":"1"},
+{"kode_paket":"GIY1F","kode_ujian":"1","aktif":"1"},
+{"kode_paket":"IOHG8","kode_ujian":"1","aktif":"1"}
+]
+}
+,{"type":"table","name":"pengumuman","database":"appujianessay","data":
+[
+
+]
+}
+,{"type":"table","name":"ref_jenis_ujian","database":"appujianessay","data":
+[
+{"kode_jenis_ujian":"1","jenis_ujian":"Penilaian Harian"},
+{"kode_jenis_ujian":"2","jenis_ujian":"Penilaian Tengah Semester"},
+{"kode_jenis_ujian":"3","jenis_ujian":"Penilaian Akhir Semester"},
+{"kode_jenis_ujian":"4","jenis_ujian":null}
+]
+}
+,{"type":"table","name":"ref_kel_matkul","database":"appujianessay","data":
+[
+{"kode_kel_mk":"3","kelompok_matakuliah":"MKDK"},
+{"kode_kel_mk":"4","kelompok_matakuliah":"MKU"},
+{"kode_kel_mk":"2","kelompok_matakuliah":"Peminatan"},
+{"kode_kel_mk":"1","kelompok_matakuliah":"Wajib"}
+]
+}
+,{"type":"table","name":"ref_peminatan","database":"appujianessay","data":
+[
+{"kode_peminatan":"4","peminatan":null},
+{"kode_peminatan":"1","peminatan":"Multimedia"},
+{"kode_peminatan":"2","peminatan":"Rekayasa Perangkat Lunak"},
+{"kode_peminatan":"3","peminatan":"Teknik Komputer Jaringan"}
+]
+}
+,{"type":"table","name":"ref_role","database":"appujianessay","data":
+[
+{"kode_role":"1","role":"Admin"},
+{"kode_role":"2","role":"Dosen"},
+{"kode_role":"3","role":"Mahasiswa"}
+]
+}
+,{"type":"table","name":"ref_semester","database":"appujianessay","data":
+[
+{"kode_semester":"8","semester":null},
+{"kode_semester":"1","semester":"117"},
+{"kode_semester":"2","semester":"118"},
+{"kode_semester":"3","semester":"119"},
+{"kode_semester":"4","semester":"120"},
+{"kode_semester":"5","semester":"121"},
+{"kode_semester":"6","semester":"122"},
+{"kode_semester":"7","semester":"123"},
+{"kode_semester":"9","semester":"124"}
+]
+}
+,{"type":"table","name":"rel_dosen_kelas","database":"appujianessay","data":
+[
+{"id":"17","kode_dosen":"1","kode_seksi":"1912600000"},
+{"id":"18","kode_dosen":"2","kode_seksi":"1912600001"},
+{"id":"19","kode_dosen":"4","kode_seksi":"1912600001"},
+{"id":"20","kode_dosen":"4","kode_seksi":"1912600002"},
+{"id":"22","kode_dosen":"7","kode_seksi":"1912600003"},
+{"id":"24","kode_dosen":"8","kode_seksi":"1912600005"},
+{"id":"21","kode_dosen":"11","kode_seksi":"1912600003"},
+{"id":"23","kode_dosen":"12","kode_seksi":"1912600004"}
+]
+}
+,{"type":"table","name":"rel_mahasiswa_kelas","database":"appujianessay","data":
+[
+{"id":"5","kode_mhs":"1","kode_seksi":"1912600003"},
+{"id":"4","kode_mhs":"1","kode_seksi":"1912600012"},
+{"id":"6","kode_mhs":"2","kode_seksi":"1912600003"}
+]
+}
+,{"type":"table","name":"rel_paketsoal_soal","database":"appujianessay","data":
+[
+{"id":"1","kode_paket":"6CIW9","kode_soal":"1","no_urut_soal":"1","bobot_soal":"10"},
+{"id":"2","kode_paket":"6CIW9","kode_soal":"2","no_urut_soal":"2","bobot_soal":"10"},
+{"id":"3","kode_paket":"6CIW9","kode_soal":"3","no_urut_soal":"3","bobot_soal":"15"},
+{"id":"4","kode_paket":"6CIW9","kode_soal":"4","no_urut_soal":"4","bobot_soal":"20"},
+{"id":"5","kode_paket":"6CIW9","kode_soal":"5","no_urut_soal":"5","bobot_soal":"25"},
+{"id":"6","kode_paket":"6CIW9","kode_soal":"7","no_urut_soal":"6","bobot_soal":"5"},
+{"id":"7","kode_paket":"6CIW9","kode_soal":"8","no_urut_soal":"7","bobot_soal":"10"},
+{"id":"8","kode_paket":"6CIW9","kode_soal":"6","no_urut_soal":"8","bobot_soal":"5"}
+]
+}
+,{"type":"table","name":"soal_essay","database":"appujianessay","data":
+[
+{"kode_soal":"1","kode_matkul":"50050002","kode_dosen":"7","soal":"sebutkan dan jelaskan sila-sila pancasila!","gambar_soal":"[\"1.1.image1.jpeg\",\"1.2.image2.jpeg\"]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"2","kode_matkul":"50050002","kode_dosen":"7","soal":"bagaimana pendapat kamu tentang NFT?","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"3","kode_matkul":"50050002","kode_dosen":"7","soal":"kamu siapa?","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"4","kode_matkul":"50050002","kode_dosen":"7","soal":"aku siapa?","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"5","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123456","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"6","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123457","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"7","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123458","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"8","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123459","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"9","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123460","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"10","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123461","gambar_soal":"[]","audio_soal":null,"video_soal":null,"status":"terbit","created_at":"2022-02-09 22:40:42","updated_at":null},
+{"kode_soal":"11","kode_matkul":"50050002","kode_dosen":"7","soal":"testing 123","gambar_soal":"[]","audio_soal":"2_ase.mid","video_soal":null,"status":"terbit","created_at":"2022-02-11 22:51:01","updated_at":null}
+]
+}
+,{"type":"table","name":"token_sessions","database":"appujianessay","data":
+[
+
+]
+}
+,{"type":"table","name":"users","database":"appujianessay","data":
+[
+{"id":"1","username":"zellev","email":"zellev.admin.ujianunj@gmail.com","password":"$2a$10$C.cT3CPu2aG77NhBIMaeoe5z8DbmetznW87Oal594IJsKZgHV5jRG","status_civitas":"aktif","kode_role":"1","foto_profil":"1_24-11-2021_17.34-appujian-94c9ae23-abf4-4026-8319-1d9bac26b45b.jpg","keterangan":"Saya Admin YNTKTS","created_at":"2021-11-24 10:17:52","updated_at":"2021-11-24 17:34:48"},
+{"id":"2","username":"User 2","email":"richard@gmail.com","password":"$2b$10$3flpKazebWthi5Hqn35tHeXDg0A07g3VCJOSQT5otzeBbd4XCzLp6","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:32:59","updated_at":null},
+{"id":"3","username":"User 3","email":"clarareiddiff99@gmail.com","password":"$2b$10$\/TFmW.vPyuvvEX7BqpjSB.gkYyYegtK\/eyyZaWDCJwqsMs\/gmZvkW","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:32:59","updated_at":null},
+{"id":"4","username":"User 4","email":"burniske@aol.com","password":"$2b$10$7O64FFW7WELlwJtQNjCbGe.ObWr.ZFCUlf.S2qdDDO7sdE7X.ThLm","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:32:59","updated_at":null},
+{"id":"5","username":"User 5","email":"garland@yahoo.ca","password":"$2b$10$8oIIixAae7wr9QdtkcrfT.5zHNw6qK\/\/2KvCSBBhzkeOMxuQnaTEG","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:00","updated_at":null},
+{"id":"6","username":"User 6","email":"wkrebs@att.net","password":"$2b$10$ai8Jsbrr9m3iSejEMHdF2.YT7hcgYOQyjOSTf1WFhK0FDKRugLjuy","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:00","updated_at":null},
+{"id":"7","username":"User 7","email":"tromey@att.net","password":"$2b$10$wiVq4sxTZd5FdQ0cyqbMruQvfDpEvdDcrnYOyjmz3.enuWZ8hQ11i","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:00","updated_at":null},
+{"id":"8","username":"User 8","email":"citadel@aol.com","password":"$2b$10$Cpdh02Dgnh81sTUZf2P1ve5WMCXuiaC5QJQNjKCMQhMakOzZs5.G6","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:00","updated_at":null},
+{"id":"9","username":"User 9","email":"policies@verizon.net","password":"$2b$10$TLpZ7jIpMTp8JEYarP\/vwO8dudeLs8H7re\/OTfRksTlBrc3PAmDRu","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:00","updated_at":null},
+{"id":"10","username":"User 10","email":"lehice1258@alfaceti.com","password":"$2b$10$JY1ZPo4VOosmmBbPd2Vfp.Ff1e0WHAegjB7YwThXE.WmoNM615HwS","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:01","updated_at":null},
+{"id":"11","username":"User 11","email":"mschwartz@sbcglobal.net","password":"$2b$10$QvUMvptQHQCL43Eh.f7TBOi7B5jNKrxKwwVZJ5iKBE0TqOKBYuj2q","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:01","updated_at":null},
+{"id":"12","username":"User 12","email":"luebke@optonline.net","password":"$2b$10$VJrS1\/lM3W6pPPlzXlo.7eWRvebhcSKlk3Ro7\/F\/KFjcQtbOvqSlm","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:01","updated_at":null},
+{"id":"13","username":"User 13","email":"zavadsky@me.com","password":"$2b$10$PJJ6w6FsFUwmvZUzmNXxQOxMe3hq6itbf7niJPxACdXKCmffWHFqG","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:02","updated_at":null},
+{"id":"14","username":"User 14","email":"pappp@optonline.net","password":"$2b$10$.mUXTIWZqZMAyZyXp.Nvz.IbqUyNRPYMGGjOR4tl3czbq7JwO0dom","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:02","updated_at":null},
+{"id":"15","username":"User 15","email":"drjlaw@yahoo.com","password":"$2b$10$AHCA\/vqGZhUDPeCGk783quGWTiYYZ7EixCOhSR42O8d8Be5\/9VPRC","status_civitas":"aktif","kode_role":"2","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:02","updated_at":null},
+{"id":"16","username":"Yaya69","email":"yaya@gmail.com","password":"$2b$10$k.5AWblEdKZ1LX.xCZs.nOQKQ0Pp28s6U5wI0ToJgHE2wnzNCBGB6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":"yaya cakep","created_at":"2021-11-24 16:33:40","updated_at":"2022-02-04 15:36:23"},
+{"id":"17","username":"User 17","email":"chaikin@msn.com","password":"$2b$10$ZPKkhHyDx0zlcsKGWHA6hOwiMKXI.NFjBuw1VR.eAegtmuY7kqkE2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:40","updated_at":null},
+{"id":"18","username":"User 18","email":"natepuri@comcast.net","password":"$2b$10$8smlaXH\/HOufVZlzbfC.Z.p4yI1Emkss9E9tKnZ4TyNc6Ays.N6NG","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:40","updated_at":null},
+{"id":"19","username":"User 19","email":"cantu@msn.com","password":"$2b$10$n8WsCyMBdGTNX0cyqrtXHOF\/wcMcon\/fRNQoSSIJySIpR6Q6sW7y2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:40","updated_at":null},
+{"id":"20","username":"User 20","email":"jfreedma@verizon.net","password":"$2b$10$h9vG5aCdIsqGCOqQEn1fceHDBmCA\/pjbXn1GlK3Gfjy1nfDa8XOi6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:41","updated_at":null},
+{"id":"21","username":"User 21","email":"wetter@verizon.net","password":"$2b$10$9OCVxLjZ21hePKAfFfM2kOAhtPjs4eYj80bQ8DfQXhMmAnVZw3Eu.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:41","updated_at":null},
+{"id":"22","username":"User 22","email":"wsnyder@aol.com","password":"$2b$10$dqpAzYP4aQ2se.jtqJh73.xhduhk.T7UVKHy7uAQObkX\/pVqoLgry","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:41","updated_at":null},
+{"id":"23","username":"User 23","email":"durist@yahoo.com","password":"$2b$10$F7fr1N9AMj58S6uFml9sn.\/Q\/TMorImTG6GNcnnsrA4lnbI7QKWxq","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:41","updated_at":null},
+{"id":"24","username":"User 24","email":"gozer@yahoo.com","password":"$2b$10$heBmpAWOCRLBuGq1eZrdSe7TXSnIqd\/zs8vjKiK6GzmDxwddpe76q","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:42","updated_at":null},
+{"id":"25","username":"User 25","email":"miami@verizon.net","password":"$2b$10$cRfjqgVvW1bGDZX3s2KYouE8KZLVz1L4DQuvUXz0Lkt0bpx9bpQA.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:42","updated_at":null},
+{"id":"26","username":"User 26","email":"grinder@yahoo.ca","password":"$2b$10$IupNWxkhKyVPWoUGSSRbcedbisWTO8OdEIBSHZLAM3WaLZitiZXwq","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:42","updated_at":null},
+{"id":"27","username":"User 27","email":"denism@icloud.com","password":"$2b$10$pAtjLhzCP02hzZFHdyXxgu26MCgHxdiyONWs0iUlM7i8283ehHRq.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:42","updated_at":null},
+{"id":"28","username":"User 28","email":"kaiser@outlook.com","password":"$2b$10$s3201r7aE2w5AwefqK3v3.QFgNIdwHArEBRcqbO0pJuAB7lP\/mgU6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:42","updated_at":null},
+{"id":"29","username":"User 29","email":"claypool@sbcglobal.net","password":"$2b$10$LvSzO8i7mhlT29HxByq3lOMwrjGCtNvFEXWDfk.OnZaharj55xaWi","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:43","updated_at":null},
+{"id":"30","username":"User 30","email":"zyghom@icloud.com","password":"$2b$10$G5UOldjbHXvezNk5Rpg24eGz3guuToqYWEMnkW.eGG5Cfb.0V.mfG","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:43","updated_at":null},
+{"id":"31","username":"User 31","email":"lbaxter@live.com","password":"$2b$10$LY\/YIQQNhNSZ\/vlG06RWSOC1iAWDcQHTm7jcs\/\/zOuxOuXDfe2iCG","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:43","updated_at":null},
+{"id":"32","username":"User 32","email":"jaffe@me.com","password":"$2b$10$c9kJRzLsjxsCq4ZyiMvnA.OKJwgVfxLviezwySd4a6Nc5YMH13ZH.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:43","updated_at":null},
+{"id":"33","username":"User 33","email":"isaacson@live.com","password":"$2b$10$yZMed18BxH21d7Bok7ZFjevStuSIXMuwmbB3sK7Lx60SpuVDle2\/S","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:43","updated_at":null},
+{"id":"34","username":"User 34","email":"ijackson@comcast.net","password":"$2b$10$Jkt7805GWQdcLMIReCQdEOsdxOcledHylVw1JHuJQBQ9WRychCXFS","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:43","updated_at":null},
+{"id":"35","username":"User 35","email":"srour@verizon.net","password":"$2b$10$e12oXG5QqCm41Lskbf4qqeAPPiq7h\/I6KD\/EDvQsWWrIAsS0OvRQm","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:44","updated_at":null},
+{"id":"36","username":"User 36","email":"ovprit@icloud.com","password":"$2b$10$ljjxIuxO0fXh9WMrs1F9ceSg9HI.LxJbKaE\/\/KE1e0wpKTZV0xEN2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:44","updated_at":null},
+{"id":"37","username":"User 37","email":"rjones@att.net","password":"$2b$10$DyKU6JTfvLPbdcYDWKI1KOkOPwCcZhXZPSf2zlfxCQID8a7G7DpTy","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:44","updated_at":null},
+{"id":"38","username":"User 38","email":"uraeus@me.com","password":"$2b$10$6WCRQXKWWgF1Fy3Vqg3XqOOxuMUOrzReagGltC\/RXAfiftmE1E6aW","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:44","updated_at":null},
+{"id":"39","username":"User 39","email":"heckerman@verizon.net","password":"$2b$10$McI3y6qWzOoKQGb\/Xx1uDuZZF8VPFlTi.M.44TSZ43XeuFBILI2rO","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:45","updated_at":null},
+{"id":"40","username":"User 40","email":"jaarnial@comcast.net","password":"$2b$10$jwMf1lgHXxkukCEu86K9KeUyGX1O\/ufHK\/TK2h8USTcZGSGyAncq.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:45","updated_at":null},
+{"id":"41","username":"User 41","email":"emmanuel@verizon.net","password":"$2b$10$rHs.FyFHZo5.oJKCBchiTucgqBvS5pA\/4c4R08cvF754edNEjmzFO","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:45","updated_at":null},
+{"id":"42","username":"User 42","email":"pierce@optonline.net","password":"$2b$10$x7AxR5HFaCEUvfjZQtHc4uD2ABPs1NpKgD\/1TcpQ.HJlBWqIDbzcu","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:45","updated_at":null},
+{"id":"43","username":"User 43","email":"lstaf@aol.com","password":"$2b$10$zqZceh\/dg6mZXI1CwCys3urdyxdqEG6f3XWahvXpctg3LJsAt0J32","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:45","updated_at":null},
+{"id":"44","username":"User 44","email":"sequin@hotmail.com","password":"$2b$10$ExobBGiRlnF1uSyDpg0KC.DHSHeFYpUtrrhkSQM5Z5m1AG8f6kTvm","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:46","updated_at":null},
+{"id":"45","username":"User 45","email":"avalon@outlook.com","password":"$2b$10$wMZefG9UtLMLcWX5.ST2Ruy8BW40YdBw8zSCoVI1gCBiCXkAz79ou","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:46","updated_at":null},
+{"id":"46","username":"User 46","email":"rjones@outlook.com","password":"$2b$10$Be42hO3iNUYALyTLjg7OkeT4HaNJr9yVKQwp52zyIhUhBdN06\/Nge","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:46","updated_at":null},
+{"id":"47","username":"User 47","email":"ismail@gmail.com","password":"$2b$10$0KoYRbt7TMR\/NVw55Jq7EObhnN9Ds4tSVvZvs39sMtNa2BCSE83uC","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:46","updated_at":null},
+{"id":"48","username":"User 48","email":"catalog@msn.com","password":"$2b$10$MQIr0VoQ9ALETS8wNicAoOetn1gPFA.FY3EktQblnC3PH\/TOfMTr6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:47","updated_at":null},
+{"id":"49","username":"User 49","email":"alfred@hotmail.com","password":"$2b$10$Uvmd\/aBKGr8.33\/aRX59\/uFW8oguyZMNg35bJsQ9P7KPfP0K4svRi","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:47","updated_at":null},
+{"id":"50","username":"User 50","email":"wildixon@verizon.net","password":"$2b$10$yFwV.kXJJkooCNQZV83YAO0JSNmIkGx6wGx7lM9SAcgZuE5aK4rZe","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:47","updated_at":null},
+{"id":"51","username":"User 51","email":"simone@msn.com","password":"$2b$10$PPYxA03czwVoY\/vDdJWunerXgy\/TJ4VewKkoZgVUcCf1UwSkGv.Pa","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:47","updated_at":null},
+{"id":"52","username":"User 52","email":"privcan@comcast.net","password":"$2b$10$.H3cbJTUy.oJuEuDw53xY.deLjuiIgBtBa25zFZHtCdV.xBy4kNSS","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:47","updated_at":null},
+{"id":"53","username":"User 53","email":"mstrout@icloud.com","password":"$2b$10$ATeer7hAj4xrJh7QBypkuuVBS2fyc4u.dWDoMvJaaE5nwHOjH8ohe","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:48","updated_at":null},
+{"id":"54","username":"User 54","email":"elmer@yahoo.com","password":"$2b$10$KWFCNDtztCq2.93NFVEHWeVc\/72qFZFK4BABWWbyFCBCUoKNXor0e","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:48","updated_at":null},
+{"id":"55","username":"User 55","email":"heidrich@hotmail.com","password":"$2b$10$4Kmr9ChomAp52yiDzU7W8O8Koz9Iil0LI7vbLFJPpIwEyFBBuRkaK","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:48","updated_at":null},
+{"id":"56","username":"User 56","email":"tokuhirom@aol.com","password":"$2b$10$D1Hwa5EPNGW1stqKuGK8iudgvEGqIzKxasYOGQNMyX1vZAmZx7wDW","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:48","updated_at":null},
+{"id":"57","username":"User 57","email":"pereinar@yahoo.com","password":"$2b$10$Si8WTHmGh2iNE6KG.3f1LOvr0MbdviaUqdGhl1mlqxNl1JqnoGkge","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:48","updated_at":null},
+{"id":"58","username":"User 58","email":"formis@mac.com","password":"$2b$10$\/NJaEM6s.RK8Mp0BcqcrguSNrRxMZPdedSV3zUztRr08bARMtreHq","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:49","updated_at":null},
+{"id":"59","username":"User 59","email":"johnh@optonline.net","password":"$2b$10$mmxTEKRHrrUM69XoJO6B1.VIIqRfI0ma2AhCMKU0c16miFAQHtmNm","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:49","updated_at":null},
+{"id":"60","username":"User 60","email":"aukjan@yahoo.ca","password":"$2b$10$PEj4rBtxZ6r35l8iRDgXX.TU9THBFRBcbsccdR6vcsr6STdQAyC56","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:49","updated_at":null},
+{"id":"61","username":"User 61","email":"jpflip@msn.com","password":"$2b$10$PE\/dJzcBXy.LvHY17EgFD.RMZ7NtHCqhBozETDAw48rzHsRHZIxry","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:49","updated_at":null},
+{"id":"62","username":"User 62","email":"murdocj@mac.com","password":"$2b$10$XkffHCM7yJv32osMTx0iouEcyt8mjJJVVvN0RKT9Jj9GUqg9YWOH.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:49","updated_at":null},
+{"id":"63","username":"User 63","email":"donev@comcast.net","password":"$2b$10$Mm7AawIRIxMGqmYgE7W04uQeyc8mrapYAvh3ZCCgs5zhYTaEDTOES","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:49","updated_at":null},
+{"id":"64","username":"User 64","email":"hillct@aol.com","password":"$2b$10$8duLTXh\/fnO2sJChG6QH6.cLmPlrLYzmppUKh2SdSirETG5ktMDAG","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:50","updated_at":null},
+{"id":"65","username":"User 65","email":"leakin@icloud.com","password":"$2b$10$wVYe2.mN15W9lrfOx0oqM.8O4gCqX55KEUM0nTO1QNIXXnv\/yNRY2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:50","updated_at":null},
+{"id":"66","username":"User 66","email":"frosal@verizon.net","password":"$2b$10$qPEXPuA18esapmd2RiUyDOypCOQTlcrx5uRGcdGKopEtxB\/FuawK.","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:50","updated_at":null},
+{"id":"67","username":"User 67","email":"xtang@outlook.com","password":"$2b$10$rF4UpYDpfmUapz5UPYhUJe4vfIvQENBpJLDfTaYj1hbhzmr2Gf6I6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:51","updated_at":null},
+{"id":"68","username":"User 68","email":"chinthaka@live.com","password":"$2b$10$XPhFEyhTzGFlV7mgFq8t5.AXEjOK8xCHiPHvVuR1\/SDGypyLsh206","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:51","updated_at":null},
+{"id":"69","username":"User 69","email":"bruck@icloud.com","password":"$2b$10$zRNT2fjmxLT0bLSruzzux.Auo2Mlz8ElG2bft.KhfvvqhNRXp5u9W","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:51","updated_at":null},
+{"id":"70","username":"User 70","email":"pgottsch@hotmail.com","password":"$2b$10$e4uIWWAjETgWypurT4o9z.OdOp2K6rtPMFapkALV8DZAmrU5xAYwi","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:51","updated_at":null},
+{"id":"71","username":"User 71","email":"kaiser@att.net","password":"$2b$10$28rkCSizSBYiVzw3m9MbHeeKWFSEPq21pNeT5iKitIQlvhMuIIEFu","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:51","updated_at":null},
+{"id":"72","username":"User 72","email":"bockelboy@sbcglobal.net","password":"$2b$10$4EV0dqnp5gwc55r5YvPGPeBBSsP06EytFmbkRxn68e\/KR\/sZl3aVW","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:52","updated_at":null},
+{"id":"73","username":"User 73","email":"dhrakar@msn.com","password":"$2b$10$X\/.0XzScZVvWRF5knWHasOuUdKAKsXQQ9IZ.gMEzGYAA\/CFGxjISS","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:52","updated_at":null},
+{"id":"74","username":"User 74","email":"marcs@outlook.com","password":"$2b$10$4pPrxB0GXhbicqlvvrf8OOm3bwoLmxK8IJoeUzLDPdbqOpKBcOK7e","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:52","updated_at":null},
+{"id":"75","username":"User 75","email":"syrinx@yahoo.ca","password":"$2b$10$8VxlR7rSuJ38wnfs731yx.rRFoRA09La1I3PKkAg\/LYM7RPRmK6Ye","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:52","updated_at":null},
+{"id":"76","username":"User 76","email":"yzheng@comcast.net","password":"$2b$10$0nkjj1TS5OG8qlRXdCcewuyZ\/OgDalx8FiJfwsk6iC7vvvqbUfgIu","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:53","updated_at":null},
+{"id":"77","username":"User 77","email":"kmself@live.com","password":"$2b$10$aDQ9HQ.UzzFwoqUc0DLgQe\/RV7XCA9i0ZhNybMxEGS5Tmf0eSuNeS","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:53","updated_at":null},
+{"id":"78","username":"User 78","email":"josephw@yahoo.com","password":"$2b$10$FYGX4giL6doc6lb92nrkSOj1KEke.PkOaeMSA6n1vs1kUdPyZ2bY6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:53","updated_at":null},
+{"id":"79","username":"User 79","email":"mccurley@me.com","password":"$2b$10$4Cv9xSmvVyOIz\/5EWBafvO1KkQRdemGSU6Oin8LON2jnOt.l2xWOW","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:53","updated_at":null},
+{"id":"80","username":"User 80","email":"jbailie@att.net","password":"$2b$10$bhP1PMEdKyjS2ZJQxPern.OuMVr7aecaMk.ulSRUkzeKJt2qfw4Ci","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:54","updated_at":null},
+{"id":"81","username":"User 81","email":"forsberg@optonline.net","password":"$2b$10$iUKOgcNWvmeMLK3\/wENE\/.YE2z7dGRwRqj5RHtMm6K7Z7fO6Arp2G","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:54","updated_at":null},
+{"id":"82","username":"User 82","email":"crypt@comcast.net","password":"$2b$10$fNmY9.tVojXsZPjx4cBkLOUXIFBasbpAdc\/MMZXutNTk8C.YIAF1G","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:54","updated_at":null},
+{"id":"83","username":"User 83","email":"claypool@icloud.com","password":"$2b$10$BMSgpoDR\/ODbDoQ5J2gg3.\/KzribukgYHzS4fbKSgzqM\/hhRF\/NPa","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:54","updated_at":null},
+{"id":"84","username":"User 84","email":"ideguy@live.com","password":"$2b$10$YdrQInx\/HYHxyIO3LvQr..A0tqHEb0GxULlKu4vXIRTzBKBz5Ev\/e","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:55","updated_at":null},
+{"id":"85","username":"User 85","email":"bowmanbs@outlook.com","password":"$2b$10$zGAf4itC0SmZyeG2wxdDKO8CDUP1HzwbNzXSXGejhh8w59xIJFRTO","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:55","updated_at":null},
+{"id":"86","username":"User 86","email":"kiddailey@yahoo.com","password":"$2b$10$N4jRcTickJnRV1fBFkMGFeGA8mL1C2atCwrKokrS4S9e4XAE76U4O","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:55","updated_at":null},
+{"id":"87","username":"User 87","email":"snunez@mac.com","password":"$2b$10$KqxGH5j3VWGSC37.27vETOXpqfPWQtQLPWAe.57gNCwEZ0gqFVhVC","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:55","updated_at":null},
+{"id":"88","username":"User 88","email":"ralamosm@yahoo.ca","password":"$2b$10$n1gPYlPnnIw6GCctnfDh4OI6Wqune898sqb0XZ4.HYooW2Lb4OvYm","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:56","updated_at":null},
+{"id":"89","username":"User 89","email":"smallpaul@optonline.net","password":"$2b$10$zldYSXYfdYtxpTcpkkho1etTnH2gHbBPRJlW97mZAVuJkZQ7xDDvq","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:56","updated_at":null},
+{"id":"90","username":"User 90","email":"nicktrig@optonline.net","password":"$2b$10$zlstWlVLI0dImJq20mYUJORi7GrXQyOikjF5F.9rIG7y1oY63aJgK","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:56","updated_at":null},
+{"id":"91","username":"User 91","email":"bancboy@optonline.net","password":"$2b$10$xWZIZPd.lb\/\/YwlMmiB\/\/etrpdA\/vpyodcXalJG3wa1Nrd2iX7Bxa","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:56","updated_at":null},
+{"id":"92","username":"User 92","email":"sinkou@mac.com","password":"$2b$10$foVwqMqKXrF3X64kti2Le.e8FOCJSoQMG2Z7\/74ngl4tCcf8YjuO2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:57","updated_at":null},
+{"id":"93","username":"User 93","email":"jsbach@att.net","password":"$2b$10$iZ9At9mTQ3GF5mK9V.8Cl.k1s.5p4sZrFwIK3AbK974IELiV58GE2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:57","updated_at":null},
+{"id":"94","username":"User 94","email":"mpiotr@outlook.com","password":"$2b$10$8P5k6tcZKlPGtyVELfgp2OjtZqZZyygP1LoiIHi91nyqq6EhGBOA6","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:57","updated_at":null},
+{"id":"95","username":"User 95","email":"amcuri@live.com","password":"$2b$10$GwccEIUbZdl\/trlwtDroEekcgvbuTAPilp.bWATvnpjziWRttpd5G","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:57","updated_at":null},
+{"id":"96","username":"User 96","email":"tamas@optonline.net","password":"$2b$10$7yHO.yqEXTL3M197dvXm8eDu4pIEXvHK0R8muInOA51xSivQfWN2q","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:58","updated_at":null},
+{"id":"97","username":"User 97","email":"uncled@live.com","password":"$2b$10$Fk\/CpQDZwIw3sfQZeaZs1e1VRZyJHrLlAE6VeJJWx1jSKryye8SKe","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:58","updated_at":null},
+{"id":"98","username":"User 98","email":"mddallara@att.net","password":"$2b$10$4zkl4BOXjSlkKDDGWjaoKO3aZluGECirRMXm1H9sY5M\/fyQ7menXm","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:58","updated_at":null},
+{"id":"99","username":"User 99","email":"ehood@icloud.com","password":"$2b$10$mDDYdqb65FZdURFDdThhRe8BMoRDA1A\/nZ0MUF0I0oydcVClVYlAC","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:59","updated_at":null},
+{"id":"100","username":"User 100","email":"clkao@me.com","password":"$2b$10$SeIqMB73G7gHpMys29b88OnwxSGCL1Ww1tJvvIU26fv3\/7phI4Ak2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:59","updated_at":null},
+{"id":"101","username":"User 101","email":"breegster@yahoo.com","password":"$2b$10$MSbiRPJPoUrm8zSOH\/2ntuS35ABZkit5SQ1ZE3rbqY6Lcy7M8J2ce","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:59","updated_at":null},
+{"id":"102","username":"User 102","email":"leocharre@comcast.net","password":"$2b$10$6Itz0Hgck2hR6OMh3yw2CO4ko.OU1uQ9j5DEYq8QSjMIwF\/kLGq\/y","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:33:59","updated_at":null},
+{"id":"103","username":"User 103","email":"thrymm@live.com","password":"$2b$10$A24aZAhal4X79U\/7ZsGE8ecR\/wzSNNtiKdNsZysGJzTAluZtlvPVW","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:00","updated_at":null},
+{"id":"104","username":"User 104","email":"seemant@msn.com","password":"$2b$10$OVjFnHiqG8tEXATygVqtHO0oQDdT01xwWS0H\/UTeRmgttiaPraToq","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:00","updated_at":null},
+{"id":"105","username":"User 105","email":"sagal@att.net","password":"$2b$10$IMDhLlMGNvK2pWDPBVEzOum6IVCOm0E\/YwVM3Eupaca3qTlMquzFq","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:00","updated_at":null},
+{"id":"106","username":"User 106","email":"munson@att.net","password":"$2b$10$QFcPKadn9jQoU8VBBoi19e\/JJKmInYnEvk.U0\/UOkVZd3iciysgvK","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:00","updated_at":null},
+{"id":"107","username":"User 107","email":"dvdotnet@live.com","password":"$2b$10$eMeKGuPdulnuPoI0SWZbV.S07K7XJPh3H6HivWvaV0tvpmvQSsfsK","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:01","updated_at":null},
+{"id":"108","username":"User 108","email":"yangyan@comcast.net","password":"$2b$10$PYJHlXltMi6mLY6gBwMjY.O.TZtREyPqtASxtmzFYfAChGPpusItu","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:01","updated_at":null},
+{"id":"109","username":"User 109","email":"dkeeler@sbcglobal.net","password":"$2b$10$AnaZ.RzPbeSjvNDBz1tEy.HWz3MhcQ6VuPlV5PLoDKAypk7GLiF5G","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:01","updated_at":null},
+{"id":"110","username":"User 110","email":"daveewart@sbcglobal.net","password":"$2b$10$Y.DbimnPn9QHLFRqrY68YeJlh\/KfR7hTJifx1Qg.DxEF\/pU0A.oUO","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:01","updated_at":null},
+{"id":"111","username":"User 111","email":"erynf@yahoo.ca","password":"$2b$10$9uVq1UwGOXMrZItXUuAawuSOCmSSjhoSqkoDfmCJe.nqp0FBoRvu2","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:02","updated_at":null},
+{"id":"112","username":"User 112","email":"irving@att.net","password":"$2b$10$4KC0VWfJQMeDz3zOWIaFyOr3sj\/nKSRf1LlY3ARPK.vrvjDxHVNgC","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:02","updated_at":null},
+{"id":"113","username":"User 113","email":"ghaviv@comcast.net","password":"$2b$10$fDjvbk3cJJ1PoO3.7NPPLeGOYlQkxj.dUZ5v\/REiROPVJx80b\/iAK","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:02","updated_at":null},
+{"id":"114","username":"User 114","email":"temmink@icloud.com","password":"$2b$10$tl\/enhP.O4oCr92MtocSGu4\/AifakBkrC0rXO3R7L1O0gIf9cTidy","status_civitas":"aktif","kode_role":"3","foto_profil":null,"keterangan":null,"created_at":"2021-11-24 16:34:03","updated_at":null}
+]
+}
+]
